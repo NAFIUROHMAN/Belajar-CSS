@@ -1,0 +1,108 @@
+*{
+    font-family: arial;
+}
+
+.header{
+    display: flex;
+    background-color: cornflowerblue;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header-title{
+    color: cornsilk;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header:hover{
+    background-color: cadetblue;
+}
+.judul{
+    display: flex;
+    background-color: coral;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/*konten*/
+
+body{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#header h1{
+    text-align: center;
+}
+
+#nav{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #efefef;
+}
+
+#nav li{
+    display: inline;
+    padding: 5px;
+}
+
+#highlight{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #efefef;
+}
+
+#highlight img{
+    width: 20%;
+}
+
+.article{
+    float: left;
+    background-color: #efefef;
+    width: 280px;
+    height: 330px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#content{
+    height: 100%;
+    overflow: auto;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #efefef;
+}
+
+.kolom2{
+    background-color: aliceblue;
+}
+
+.kolom1, .kolom3{
+    background-color: antiquewhite;
+}
+
+/* kredit */
+.credit{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.penulis{
+    color: crimson;
+}
+
+.tanggal{
+    color: olive;
+}

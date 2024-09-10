@@ -1,0 +1,59 @@
+*{
+    font-family: arial;
+}
+
+.header{
+    display: flex;
+    background-color: cornflowerblue;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header-title{
+    color: cornsilk;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header:hover{
+    background-color: cadetblue;
+}
+.judul{
+    display: flex;
+    background-color: coral;
+    padding: 5px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+/*konten*/
+
+p{
+    background-color: aqua;
+
+}
+
+.posisi-relative{
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: coral;
+}
+
+/* kredit */
+.credit{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.penulis{
+    color: crimson;
+}
+
+.tanggal{
+    color: olive;
+}
